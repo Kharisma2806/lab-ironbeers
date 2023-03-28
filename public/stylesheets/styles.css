@@ -5,3 +5,75 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #2081c3;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+  padding: 10px;
+}
+
+img {
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.buttons {
+  display: grid;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: center;
+}
+
+.btn-primary {
+  background-color: #2081c3;
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  cursor: pointer;
+  margin: 20px 70px 20px 20px;
+  text-align: center;
+}
+
+.btn-secondary {
+  background-color: #2081c3;
+  padding: 10px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  cursor: pointer;
+  margin: 20px 70px 20px 20px;
+  text-align: center;
+}
